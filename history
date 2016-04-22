@@ -506,13 +506,10 @@
   506  git status
   507  git push origin master
   508  ls
-  509  cd..
   510  cd ..
   511  ls
-  512  cp answers.txt /myopenstack
   513  cd myopenstack
   514  ls
-  515  cp answers.txt myopenstack
   516  cd ..
   517  cp answers.txt myopenstack
   518  cd myopenstack
