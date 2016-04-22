@@ -475,3 +475,53 @@
   475  git config --list
   476  git init
   477  history > history
+  478  git status
+  479  git add history
+  480  git commit -m 'This is supposed to add my history to my repository'
+  481  git remote add origin https://github.com/cgpeart/myopenstack.git
+  482  git pull origin master
+  483  git remote rm origin
+  484  git remote add origin https://github.com/cgpeart/myopenstack.git
+  485  git pull origin master
+  486  git remote add origin https://github.com/cgpeart/myopenstack.git
+  487  git push origin master
+  488  git pull origin master
+  489  su centos
+  490  keystone --version
+  491  ls
+  492  git status
+  493  cd myopenstack
+  494  git status
+  495  ls
+  496  cd .
+  497  cd ..
+  498  ls
+  499  cp keystonerc* myopenstack
+  500  cd myopenstack
+  501  ls
+  502  git status
+  503  git add keystone*
+  504  git status
+  505  git commit -m 'Sample user files'
+  506  git status
+  507  git push origin master
+  508  ls
+  509  cd..
+  510  cd ..
+  511  ls
+  512  cp answers.txt /myopenstack
+  513  cd myopenstack
+  514  ls
+  515  cp answers.txt myopenstack
+  516  cd ..
+  517  cp answers.txt myopenstack
+  518  cd myopenstack
+  519  ls
+  520  git add answers.txt
+  521  git push origin master
+  522  git commit -m 'Sample user files'
+  523* git add answers.
+  524  git commit -m 'Sample user files'
+  525  git push origin master
+  526  cd ..
+  527  history > history
